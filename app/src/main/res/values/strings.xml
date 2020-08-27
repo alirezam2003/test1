@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">sharedpref test</string>
+
+    <string-array name="names">
+        <item>ali</item>
+        <item>reza</item>
+        <item>hasan</item>
+    </string-array>
+    <string-array name="values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
