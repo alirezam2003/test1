@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void man(View view) {
 
-        Global.toast("Git Alireza ");
+        Global.toast("Git Alireza 2");
 //        Toast.makeText(this, "fdkljhfdfdnbfd", Toast.LENGTH_SHORT).show();
     }
 }
