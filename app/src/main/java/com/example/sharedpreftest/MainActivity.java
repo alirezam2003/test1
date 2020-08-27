@@ -49,11 +49,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void load_pref_dialog() {
         Context context;
         SharedPreferences apppref = PreferenceManager.getDefaultSharedPreferences(this);
-        String name= apppref.getString("name","404");
-        Boolean n =apppref.getBoolean("c",false);
+        String name = apppref.getString("name", "404");
+        Boolean n = apppref.getBoolean("c", false);
         new AlertDialog.Builder(this)
                 .setTitle("hi")
-                .setMessage(name +'\n'+n)
+                .setMessage(name + '\n' + n)
                 .show();
     }
 
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void man(View view) {
 
-       Global.toast("saloam,vdvklifhn ");
+        Global.toast("Git Alireza ");
 //        Toast.makeText(this, "fdkljhfdfdnbfd", Toast.LENGTH_SHORT).show();
     }
 }
